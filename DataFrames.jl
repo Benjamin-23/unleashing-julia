@@ -70,7 +70,7 @@ md"""
 ### The date is now $(dates[date_slider_index])
 """
 
-# ╔═╡ 4eda1f8d-4da6-402c-900e-d3dbc3057d90
+# ╔═╡ 5aa49c60-ca9a-4d4e-8d98-5dd1911f7d8d
 new_plot = plot(dates[date_slider_index:end], cumulative_cases[date_slider_index:end], title="Singapore COVID-19 Cases 2020-2025", xlabel="Dates", ylabel="Cumulative Number of Cases")
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
@@ -1386,6 +1386,6 @@ version = "1.4.1+2"
 # ╠═4a86978e-058f-4b43-a3f9-72cf7449dad3
 # ╠═87339ce1-8180-4db8-883a-d6e7f8486083
 # ╠═c17f9d45-0279-47c9-a639-26296c38014b
-# ╠═4eda1f8d-4da6-402c-900e-d3dbc3057d90
+# ╠═5aa49c60-ca9a-4d4e-8d98-5dd1911f7d8d
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
